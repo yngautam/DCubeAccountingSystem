@@ -1,0 +1,76 @@
+﻿<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" [routerLink]="['/dashboard']">
+                <img src="../../images/logo.png" class="pull-left" alt="D Cube Hotel">
+                <div style="padding-top: 1px;width: 200px; text-align: center;">
+                    <h5 style="color: #ffffff; font-weight: 600;">
+                        D Cube Billing System (V1)
+                    </h5>
+                </div>
+            </a>
+        </div>
+        <div id="navbar1" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Users
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a [routerLink]="['/managedashboard/user']">Users </a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/managedashboard/role']">Roles </a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/managedashboard/userRole']">UserRoles </a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/managedashboard/rolemodule']">Role Module </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a [routerLink]="['/managedashboard/department']"> Department</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/managedashboard/financial']"> Financial Year</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/managedashboard/company']"> Company</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav pull-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <img style="height: 18px;" src="../../images/logo.png" alt="DCube Hotel">&nbsp;Welcome! {{ user.UserName }}
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li>
+                            <a href="#" (click)="logout()">Logout</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="header-wrapper" [hidden]="!hideElement">
+    <div class="header">
+        <div class="filter"></div>
+        <div class="title-container text-center">
+            <h1>Manage Dashboard</h1>
+            <h3>Documentation - v1.0.1</h3>
+        </div>
+    </div>
+</div>

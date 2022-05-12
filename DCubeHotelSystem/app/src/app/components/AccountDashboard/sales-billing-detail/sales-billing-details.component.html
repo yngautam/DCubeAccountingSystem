@@ -1,0 +1,18 @@
+﻿<br />
+<div [formGroup]="SalesOrderDetails">
+    <div class="col-md-4">
+        <ngx-select-dropdown (searchChange)="searchChangeItem($event)" formControlName="ItemId" [config]="configItem" [options]="MenuItemPortions" (blur)="calcRate(SalesOrderDetails.controls)"></ngx-select-dropdown>
+        <!--<select class="col-md-3 form-control" formControlName="ItemId" (blur)="calcRate(SalesOrderDetails.controls)">
+            <option class="form-control" *ngFor="let inventoryitems of MenuItemPortions" [value]="inventoryitems.Id">{{inventoryitems.Name}}</option>
+        </select>-->
+    </div>
+    <div class="col-md-2">
+        <input type="number" class="form-control" formControlName="Qty" (blur)="calculateAmount(SalesOrderDetails.controls)" />
+    </div>
+    <div class="col-md-2">
+        <input type="number" class="form-control" formControlName="UnitPrice" (blur)="calculateAmount(SalesOrderDetails.controls)" />
+    </div>
+    <div class="col-md-3">
+        <input type="number" class="form-control" formControlName="TotalAmount" readonly="true" />
+    </div>
+</div>

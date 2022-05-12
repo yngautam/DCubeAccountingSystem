@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="DCubeBilling" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\DCubeHotelManagement\\FinalVersion\\DCubeBillingSystemVAT\\DCubeHotelSystem\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\DCubeHotelManagement\\FinalVersion\\DCubeBillingSystemVAT\\DCubeHotelSystem\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DCubeConnection-Web.config Connection String" description="" value="Data Source=DCUBE-SAHAKARI\SQLEXPRESS;Initial Catalog=DCubeBillingSystemV2; user id = sa; Password = deepti2004; Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\DCubeHotelManagement\\FinalVersion\\DCubeBillingSystemVAT\\DCubeHotelSystem\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DCubeConnection']/@connectionString" />
+  </parameter>
+</parameters>

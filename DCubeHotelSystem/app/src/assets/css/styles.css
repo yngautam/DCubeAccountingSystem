@@ -1,0 +1,250 @@
+﻿/* 
+*   Developer: Buddha  Man Nepali <bmnepali980@gmail.com>
+*   Owner: DCube IT solutions Pvt. Ltd.
+*/
+
+/* Custom Styles go here */
+html,
+body {
+  height: 100%;
+  background-color: #e9ebee;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto 0;
+  /* Pad bottom by footer height */
+  background: white;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 45px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  background-color: 4267b2;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* overrides */
+.navbar-default {
+  background-color: #4267b2;
+}
+  
+.navbar-default .navbar-nav>li>a {
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+}
+
+/* Dashboard Wrapper */
+.dashboard-wrapper {
+  border: 3px solid grey;
+  border-radius: 7px;
+  padding: 12px;
+  height: auto;
+  background-color: #dadada;
+}
+  
+.dashboard-item {
+  height: 145px;
+  border: 3px solid grey;
+  width: 346px !important;
+  margin: 12px;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #c3c2c2;
+  padding: 12px 15px;
+}
+    
+.dashboard-item img {
+  height: 60px;
+}
+ 
+.dashboard-item h3 {
+  color: #FFFFFF;
+}
+
+/* Table container */
+.table-item {
+  height: 100px;
+  border: 3px solid grey;
+  width: 150px !important;
+  margin: 12px;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #c3c2c2;
+  padding: 12px 15px;
+}
+
+/* .loader {
+    height: 80px;
+} */
+
+.input-group input {
+    border: 1px solid cornflowerblue;
+}
+
+.input-group .input-group-addon {
+    border-top: 1px solid cornflowerblue;
+    border-left: 1px solid cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+}
+
+label {
+    font-weight: 100;
+}
+
+.btn {
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px darkgrey;
+}
+
+/* custom checkbox */
+input[type="checkbox"].custom{
+	font-size: 30px;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	width: 1.5em;
+	height: 0.8em;
+	background: #ddd;
+	border-radius: 3em;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    top: 7px;
+  }
+  
+  input[type="checkbox"].custom:checked{
+	background: #0ebeff;
+  }
+  
+  input[type="checkbox"].custom:after{
+	position: absolute;
+	content: "";
+	width: 0.8em;
+	height: 0.8em;
+	border-radius: 50%;
+  background: #fff;
+  left: 0;
+	-webkit-box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	        box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	-webkit-transform: scale(.7);
+	        transform: scale(.7);
+	-webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  
+  input[type="checkbox"].custom:checked:after{
+	  left: calc(100% - 0.8em);
+  }
+
+/* ALL LOADERS */
+.loading {
+  background: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9998;
+}
+
+.spinner {
+  background-image: url('/images/ajax-loader.gif');
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  border: 0;
+  display: block;
+  height: 150px;
+  left: 46%;
+  margin: -23px 0 0 -23px;
+  overflow: hidden;
+  padding: 1px;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  width: 150px;
+  z-index: 9999;
+  opacity: 1;
+}
+
+/** Others **/
+.age-field {
+  position: relative;
+}
+
+.close-btn {
+  background: red;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 6px;
+  right: 3px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 0px;
+  color: #FFFFFF;
+}

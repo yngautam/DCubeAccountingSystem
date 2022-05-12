@@ -1,0 +1,2920 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\DCubeBillingSystemV3</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="app/.angular-cli.json">
+      <publishTime>07/02/2018 12:43:03</publishTime>
+    </File>
+    <File Include="app/dist/favicon.ico">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/glyphicons-halflings-regular.448c34a56d699c29117a.woff2">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/glyphicons-halflings-regular.89889688147bd7575d63.svg">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/glyphicons-halflings-regular.fa2772327f55d8198301.woff">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/inline.bundle.js">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/inline.bundle.js.map">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/main.bundle.js">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/main.bundle.js.map">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/category.actions.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/category.actions.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/customer.actions.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/customer.actions.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/order.actions.js">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/order.actions.js.map">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/product.actions.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/product.actions.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/table.actions.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/table.actions.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/ticket.actions.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/ticket.actions.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/user.actions.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/actions/user.actions.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/adapters/category.adapter.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/adapters/category.adapter.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/adapters/customer.adapter.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/adapters/customer.adapter.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/adapters/order.adapter.js">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/adapters/order.adapter.js.map">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/adapters/product.adapter.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/adapters/product.adapter.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/adapters/table.adapter.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/adapters/table.adapter.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/adapters/ticket.adapter.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/adapters/ticket.adapter.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/app.module.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/app.module.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/account-transaction-type/account-transaction-type.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/account-transaction-type/account-transaction-type.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/account-type/account-type.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/account-type/account-type.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/account/account.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/account/account.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/AccountDashboard/AccountDashboard.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/AccountDashboard/AccountDashboard.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/app/app.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/app/app.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/category/category.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/category/category.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/company/company.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/company/company.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/credit-note/cerdit-note.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/credit-note/cerdit-note.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/dashboard-nav/DashboardNavigation.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/dashboard-nav/DashboardNavigation.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/dashboard/dashboard.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/dashboard/dashboard.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/debit-note/debit-note.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/debit-note/debit-note.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Department/Department.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Department/Department.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/file-upload/file-upload.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/file-upload/file-upload.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/FinancialYear/FinancialYear.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/FinancialYear/FinancialYear.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/inventory-receipt/inventory-receipt.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/inventory-receipt/inventory-receipt.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/inventory-receiptdetails/inventory-receiptdetails.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/inventory-receiptdetails/inventory-receiptdetails.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/inventory/inventory-item.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/inventory/inventory-item.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/InventoryDashboard/InventoryDashboard.Component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/InventoryDashboard/InventoryDashboard.Component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/journal/journaVoucher.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/journal/journaVoucher.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/journalvoucher-details/journalvoucher-details.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/journalvoucher-details/journalvoucher-details.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/kitchen-order-view-component/kitchen-order-view.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/kitchen-order-view-component/kitchen-order-view.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/kitchen-orders-component/kitchen-orders.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/kitchen-orders-component/kitchen-orders.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/login/login.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/login/login.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/manage/manage.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/manage/manage.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/master-ledger/master-ledger.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/master-ledger/master-ledger.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/menu-list/menu-list.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/menu-list/menu-list.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/menu.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/menu.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/MenuCategory/MenuCategory.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/MenuCategory/MenuCategory.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/MenuConsumption/menu-consumption.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/MenuConsumption/menu-consumption.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/MenuItem/MenuCategoryItem.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/MenuItem/MenuCategoryItem.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/MenuItem/MenuItem.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/MenuItem/MenuItem.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/MenuItem/MenuItemPortion/MenuItemPortion.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/MenuItem/MenuItemPortion/MenuItemPortion.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/MenuItem/ScreenMenuItem.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/MenuItem/ScreenMenuItem.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/ScreenMenuCategory/menu-category.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Menu/ScreenMenuCategory/menu-category.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/navigation/navigation.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/navigation/navigation.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/notfound/notfound.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/notfound/notfound.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/payment/payment.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/payment/payment.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/periodic-consumption-items/periodic-consumption-item.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/periodic-consumption-items/periodic-consumption-item.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/periodic-consumption/periodic-consumption.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/periodic-consumption/periodic-consumption.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/permission/permission.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/permission/permission.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-dashboard-nav/pos-dashboard-nav.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-dashboard-nav/pos-dashboard-nav.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-dashboard/pos-dashboard.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-dashboard/pos-dashboard.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-table/pos-calculator/pos-calculator.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-table/pos-calculator/pos-calculator.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-table/pos-options/pos-options.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-table/pos-options/pos-options.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-table/pos-orders/pos-orders.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-table/pos-orders/pos-orders.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-table/pos-settle/pos-settle.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-table/pos-settle/pos-settle.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-table/pos-table.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-table/pos-table.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-table/pos-tickets/pos-tickets.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/pos-table/pos-tickets/pos-tickets.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/printer-commands/PrinterCommandsComponent.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/printer-commands/PrinterCommandsComponent.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/purchase/purchase.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/purchase/purchase.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/purchaseDetail/purchaseDetail.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/purchaseDetail/purchaseDetail.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/purchaseOrder/purchaseOrder.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/purchaseOrder/purchaseOrder.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/purchaseOrderDetails/purchaseorderdetails.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/purchaseOrderDetails/purchaseorderdetails.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/receipt/receipt.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/receipt/receipt.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Report/balance-sheet/balance-sheet.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Report/balance-sheet/balance-sheet.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Report/BalanceSheet/AccountBalanceSheet.Component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Report/BalanceSheet/AccountBalanceSheet.Component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Report/LedgerView/AccountLedgerView.Component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Report/LedgerView/AccountLedgerView.Component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Report/ProfitAndLoss/AccountProfitAndLoss.Component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Report/ProfitAndLoss/AccountProfitAndLoss.Component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Report/SaleBook/AccountSaleBook.Component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Report/SaleBook/AccountSaleBook.Component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/checkin/checkin.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/checkin/checkin.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/checkout/checkout.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/checkout/checkout.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/customer-type/customer-type.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/customer-type/customer-type.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/customer/customer.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/customer/customer.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/facility/facility.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/facility/facility.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/payment-type/payment-type.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/payment-type/payment-type.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/reservation-type/reservation-type.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/reservation-type/reservation-type.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/reservation/reservation.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/reservation/reservation.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/ReservationInquiry/ReservationInquiry.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/ReservationInquiry/ReservationInquiry.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/room-occupied/room-occupied.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/room-occupied/room-occupied.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/room-reserved/room-reserved.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/room-reserved/room-reserved.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/room-type/room-type.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/room-type/room-type.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/room/room.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/reservation/room/room.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/ReservationDashboard/ReservationDashboard.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/ReservationDashboard/ReservationDashboard.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/ReservationDashboardNav/ReservationDashboardNav.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/ReservationDashboardNav/ReservationDashboardNav.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/role-assign/role-assign.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/role-assign/role-assign.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/role-assign/role-name/role-name.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/role-assign/role-name/role-name.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/role/role.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/role/role.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/rolemodule/rolemodule.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/rolemodule/rolemodule.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/sales-billing-detail/sales-billing-details.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/sales-billing-detail/sales-billing-details.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/sales-billing/sales-billing.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/sales-billing/sales-billing.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/sales-detail/salesDetail.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/sales-detail/salesDetail.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/sales/sales.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/sales/sales.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Table/table.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/Table/table.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/TrialBalance/TrialBalance.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/TrialBalance/TrialBalance.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/user-permission/user-permission.component.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/user-permission/user-permission.component.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/user/user.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/user/user.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/WareHouse/warehouse.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/WareHouse/warehouse.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/WareHouse/WareHouse.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/WareHouse/WareHouse.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/WareHouse/warehousetype.component.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/components/WareHouse/warehousetype.component.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/directives/autofocus.directive.js">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/directives/autofocus.directive.js.map">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/directives/directives.module.js">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/directives/directives.module.js.map">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/directives/scrollbar.directive.js">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/directives/scrollbar.directive.js.map">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/category.effects.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/category.effects.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/customer.effects.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/customer.effects.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/order.effects.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/order.effects.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/product.effects.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/product.effects.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/table.effects.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/table.effects.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/ticket.effects.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/ticket.effects.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/user.effects.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/effects/user.effects.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/filters/customerByName.filter.js">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/filters/customerByName.filter.js.map">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/filters/filterByCategory.filter.js">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/filters/filterByCategory.filter.js.map">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/filters/filters.module.js">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/filters/filters.module.js.map">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/guard/auth.guard.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/guard/auth.guard.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/customers.mock.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/customers.mock.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/menu-category.mock.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/menu-category.mock.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/menu-list.mock .js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/menu-list.mock .js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/menus.mock .js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/menus.mock .js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/orders.mock.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/orders.mock.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/products.mock.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/products.mock.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/tables.mock.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/tables.mock.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/vendors.mock.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/mocks/vendors.mock.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Account/account.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Account/account.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/AccountTransaction/accountTrans.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/AccountTransaction/accountTrans.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/AccountTransactionType/accountTransType.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/AccountTransactionType/accountTransType.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/AccountType/accountType.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/AccountType/accountType.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/BalanceSheet.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/BalanceSheet.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Category.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Category.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Department.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Department.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/FinancialYear.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/FinancialYear.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Inventory/InventoryItem.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Inventory/InventoryItem.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Inventory/InventoryReceipt.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Inventory/InventoryReceipt.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/LedgerView.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/LedgerView.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/MasterLedger.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/MasterLedger.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/MasterLedger/masterLedger.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/MasterLedger/masterLedger.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Menu/Menu.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Menu/Menu.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Menu/MenuCategory.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Menu/MenuCategory.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Menu/menuConsumption.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Menu/menuConsumption.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Menu/MenuItem.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Menu/MenuItem.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Menu/MenuItemPortion.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Menu/MenuItemPortion.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Menu/Table.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Menu/Table.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/NepaliMonth.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/NepaliMonth.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Order.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Order.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/periodic-consumption-items/periodic-consumption-item.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/periodic-consumption-items/periodic-consumption-item.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/ProfitAndLoss.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/ProfitAndLoss.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Roles/role.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Roles/role.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Roles/rolemodule.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Roles/rolemodule.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/SaleBook.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/SaleBook.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Supplier.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/Supplier.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/TrialBalance.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/TrialBalance.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/User/user.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/User/user.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/User/userpermission.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/User/userpermission.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/User/userRole.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/User/userRole.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/WareHouse/WareHouse.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Model/WareHouse/WareHouse.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/category.model.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/category.model.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/company.model.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/company.model.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/customer.model.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/customer.model.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/financial.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/financial.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/order.model.js">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/order.model.js.map">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/product.model.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/product.model.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/receipt.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/receipt.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/customer-screen.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/customer-screen.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/customer-type.model.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/customer-type.model.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/customer.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/customer.model.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/facility.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/facility.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/payment-type.model.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/payment-type.model.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/reservation-detail.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/reservation-detail.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/reservation-screen.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/reservation-screen.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/reservation-type.model.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/reservation-type.model.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/reservation.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/reservation.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-hosted-screen.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-hosted-screen.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-hosted.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-hosted.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-occupied-screen.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-occupied-screen.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-occupied.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-occupied.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-reserved-screen.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-reserved-screen.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-reserved.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-reserved.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-screen.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-screen.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-type.model.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room-type.model.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room.model.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/reservation/room.model.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/table.model.js">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/table.model.js.map">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/ticket.model.js">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/ticket.model.js.map">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/user.model.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/models/user.model.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/categories.reducer.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/categories.reducer.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/customers.reducer.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/customers.reducer.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/message.reducer.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/message.reducer.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/orders.reducer.js">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/orders.reducer.js.map">
+      <publishTime>10/29/2018 18:31:38</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/products.reducer.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/products.reducer.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/tables.reducer.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/tables.reducer.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/tickets.reducer.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/tickets.reducer.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/users.reducer.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/reducers/users.reducer.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/selectors/category.selector.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/selectors/category.selector.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/selectors/customer.selector.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/selectors/customer.selector.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/selectors/order.selector.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/selectors/order.selector.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/selectors/product.selector.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/selectors/product.selector.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/selectors/table.selector.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/selectors/table.selector.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/selectors/ticket.selector.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/selectors/ticket.selector.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/account-trans-type.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/account-trans-type.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/account-type.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/account-type.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/account.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/account.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/accountTransValues.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/accountTransValues.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/authentication.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/authentication.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/Category.services.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/Category.services.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/Department.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/Department.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/InventoryIssue.service.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/InventoryIssue.service.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/InventoryItem.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/InventoryItem.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/InventoryReceipt.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/InventoryReceipt.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/InventoryReceiptDetails.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/InventoryReceiptDetails.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/journalVoucher.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/journalVoucher.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/login.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/login.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/MasterLedger.service.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/MasterLedger.service.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/Menu.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/Menu.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/MenuCategory.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/MenuCategory.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/MenuConsumptionDetailsService.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/MenuConsumptionDetailsService.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/MenuConsumptionService.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/MenuConsumptionService.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/MenuItem.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/MenuItem.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/MenuItemPortion.services.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/MenuItemPortion.services.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/Order.service.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/Order.service.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/periodic-consumption.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/periodic-consumption.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/peroidic-consumption-item.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/peroidic-consumption-item.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/purchase.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/purchase.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/PurchaseDetails.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/PurchaseDetails.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/purchaseorder.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/purchaseorder.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/purchaseOrderdetails.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/purchaseOrderdetails.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/role.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/role.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/room.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/room.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/Supplier.service.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/Supplier.service.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/tableService.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/tableService.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/user.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/user.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/userRole.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/userRole.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/warehouse-type.service.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/warehouse-type.service.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/warehouse.service.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Service/warehouse.service.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/category.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/category.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/customer.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/customer.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/file.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/file.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/order.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/order.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/product.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/product.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/customer-type.services.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/customer-type.services.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/customer.services.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/customer.services.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/facility.services.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/facility.services.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/payment-type.services.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/payment-type.services.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/reservation-type.services.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/reservation-type.services.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/reservation.services.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/reservation.services.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/room-occupied.services.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/room-occupied.services.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/room-type.services.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/reservation/room-type.services.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/category.store.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/category.store.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/customer.store.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/customer.store.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/order.store.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/order.store.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/product.store.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/product.store.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/table.store.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/table.store.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/ticket.store.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/ticket.store.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/user.store.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/store/user.store.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/table.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/table.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/ticket.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/ticket.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/user.service.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/services/user.service.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Shared/enum.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Shared/enum.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Shared/global.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/app/Shared/global.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/environments/environment.js">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/environments/environment.js.map">
+      <publishTime>10/29/2018 18:31:39</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/environments/environment.prod.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/environments/environment.prod.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/main.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/main.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/polyfills.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/polyfills.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/test.js">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/out-tsc/test.js.map">
+      <publishTime>10/29/2018 18:31:40</publishTime>
+    </File>
+    <File Include="app/dist/polyfills.bundle.js">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/polyfills.bundle.js.map">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/styles.bundle.js">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/styles.bundle.js.map">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/vendor.bundle.js">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/dist/vendor.bundle.js.map">
+      <publishTime>10/26/2018 17:43:06</publishTime>
+    </File>
+    <File Include="app/karma.conf.js">
+      <publishTime>09/27/2017 10:20:49</publishTime>
+    </File>
+    <File Include="app/package.json">
+      <publishTime>07/12/2018 08:34:01</publishTime>
+    </File>
+    <File Include="app/src/app/actions/category.actions.ts">
+      <publishTime>01/25/2018 08:02:26</publishTime>
+    </File>
+    <File Include="app/src/app/actions/customer.actions.ts">
+      <publishTime>10/04/2018 21:16:35</publishTime>
+    </File>
+    <File Include="app/src/app/actions/order.actions.ts">
+      <publishTime>05/04/2018 08:59:49</publishTime>
+    </File>
+    <File Include="app/src/app/actions/product.actions.ts">
+      <publishTime>01/25/2018 07:50:22</publishTime>
+    </File>
+    <File Include="app/src/app/actions/table.actions.ts">
+      <publishTime>01/25/2018 11:51:52</publishTime>
+    </File>
+    <File Include="app/src/app/actions/ticket.actions.ts">
+      <publishTime>10/04/2018 20:15:02</publishTime>
+    </File>
+    <File Include="app/src/app/actions/user.actions.ts">
+      <publishTime>01/08/2018 11:29:44</publishTime>
+    </File>
+    <File Include="app/src/app/adapters/category.adapter.ts">
+      <publishTime>01/25/2018 07:58:46</publishTime>
+    </File>
+    <File Include="app/src/app/adapters/customer.adapter.ts">
+      <publishTime>02/15/2018 14:29:21</publishTime>
+    </File>
+    <File Include="app/src/app/adapters/order.adapter.ts">
+      <publishTime>04/18/2018 19:41:38</publishTime>
+    </File>
+    <File Include="app/src/app/adapters/product.adapter.ts">
+      <publishTime>01/24/2018 17:42:16</publishTime>
+    </File>
+    <File Include="app/src/app/adapters/table.adapter.ts">
+      <publishTime>01/24/2018 08:17:48</publishTime>
+    </File>
+    <File Include="app/src/app/adapters/ticket.adapter.ts">
+      <publishTime>07/20/2018 08:49:30</publishTime>
+    </File>
+    <File Include="app/src/app/app.module.ts">
+      <publishTime>10/26/2018 16:13:47</publishTime>
+    </File>
+    <File Include="app/src/app/components/account-transaction-type/account-transaction-type.component.html">
+      <publishTime>07/11/2018 12:39:40</publishTime>
+    </File>
+    <File Include="app/src/app/components/account-transaction-type/account-transaction-type.component.ts">
+      <publishTime>06/18/2018 21:24:29</publishTime>
+    </File>
+    <File Include="app/src/app/components/account-type/account-type.component.html">
+      <publishTime>08/02/2018 08:08:44</publishTime>
+    </File>
+    <File Include="app/src/app/components/account-type/account-type.component.ts">
+      <publishTime>06/18/2018 21:22:36</publishTime>
+    </File>
+    <File Include="app/src/app/components/account/account.component.html">
+      <publishTime>07/23/2018 19:06:01</publishTime>
+    </File>
+    <File Include="app/src/app/components/account/account.component.ts">
+      <publishTime>07/06/2018 12:35:27</publishTime>
+    </File>
+    <File Include="app/src/app/components/AccountDashboard/AccountDashboard.component.css">
+      <publishTime>07/02/2018 08:44:38</publishTime>
+    </File>
+    <File Include="app/src/app/components/AccountDashboard/AccountDashboard.component.html">
+      <publishTime>10/08/2018 12:23:15</publishTime>
+    </File>
+    <File Include="app/src/app/components/AccountDashboard/AccountDashboard.component.ts">
+      <publishTime>07/02/2018 13:36:23</publishTime>
+    </File>
+    <File Include="app/src/app/components/app/app.component.html">
+      <publishTime>09/07/2018 17:19:09</publishTime>
+    </File>
+    <File Include="app/src/app/components/app/app.component.ts">
+      <publishTime>07/12/2018 13:20:41</publishTime>
+    </File>
+    <File Include="app/src/app/components/category/category.component.html">
+      <publishTime>05/07/2018 18:15:31</publishTime>
+    </File>
+    <File Include="app/src/app/components/category/category.component.ts">
+      <publishTime>05/07/2018 13:29:36</publishTime>
+    </File>
+    <File Include="app/src/app/components/dashboard/dashboard.component.css">
+      <publishTime>09/07/2018 14:19:29</publishTime>
+    </File>
+    <File Include="app/src/app/components/dashboard/dashboard.component.html">
+      <publishTime>09/26/2018 12:49:14</publishTime>
+    </File>
+    <File Include="app/src/app/components/dashboard/dashboard.component.ts">
+      <publishTime>07/01/2018 14:26:01</publishTime>
+    </File>
+    <File Include="app/src/app/components/Department/Department.component.html">
+      <publishTime>01/31/2018 16:59:46</publishTime>
+    </File>
+    <File Include="app/src/app/components/Department/Department.component.ts">
+      <publishTime>02/23/2018 12:51:42</publishTime>
+    </File>
+    <File Include="app/src/app/components/file-upload/file-upload.component.html">
+      <publishTime>08/04/2018 18:53:00</publishTime>
+    </File>
+    <File Include="app/src/app/components/file-upload/file-upload.component.ts">
+      <publishTime>08/06/2018 19:49:14</publishTime>
+    </File>
+    <File Include="app/src/app/components/inventory-receipt/inventory-receipt.component.html">
+      <publishTime>10/03/2018 10:58:56</publishTime>
+    </File>
+    <File Include="app/src/app/components/inventory-receipt/inventory-receipt.component.ts">
+      <publishTime>10/04/2018 15:32:56</publishTime>
+    </File>
+    <File Include="app/src/app/components/inventory-receiptdetails/inventory-receiptdetails.component.html">
+      <publishTime>08/21/2018 13:12:12</publishTime>
+    </File>
+    <File Include="app/src/app/components/inventory-receiptdetails/inventory-receiptdetails.component.ts">
+      <publishTime>08/13/2018 13:45:02</publishTime>
+    </File>
+    <File Include="app/src/app/components/inventory/inventory-item.component.html">
+      <publishTime>05/07/2018 18:15:53</publishTime>
+    </File>
+    <File Include="app/src/app/components/inventory/inventory-item.component.ts">
+      <publishTime>05/07/2018 13:14:40</publishTime>
+    </File>
+    <File Include="app/src/app/components/InventoryDashboard/InventoryDashboard.Component.html">
+      <publishTime>09/07/2018 12:36:41</publishTime>
+    </File>
+    <File Include="app/src/app/components/journal/journalVoucher.component.html">
+      <publishTime>08/22/2018 19:56:27</publishTime>
+    </File>
+    <File Include="app/src/app/components/journal/journaVoucher.component.css">
+      <publishTime>04/18/2018 11:58:30</publishTime>
+    </File>
+    <File Include="app/src/app/components/journalvoucher-details/journalvoucher-details.component.html">
+      <publishTime>08/21/2018 12:20:40</publishTime>
+    </File>
+    <File Include="app/src/app/components/journalvoucher-details/journalvoucher-details.component.ts">
+      <publishTime>03/11/2018 11:53:14</publishTime>
+    </File>
+    <File Include="app/src/app/components/kitchen-order-view-component/kitchen-order-view.component.css">
+      <publishTime>03/21/2018 10:25:33</publishTime>
+    </File>
+    <File Include="app/src/app/components/kitchen-order-view-component/kitchen-order-view.component.html">
+      <publishTime>03/21/2018 10:25:33</publishTime>
+    </File>
+    <File Include="app/src/app/components/kitchen-orders-component/kitchen-orders.component.css">
+      <publishTime>03/21/2018 10:25:33</publishTime>
+    </File>
+    <File Include="app/src/app/components/kitchen-orders-component/kitchen-orders.component.html">
+      <publishTime>05/15/2018 08:04:52</publishTime>
+    </File>
+    <File Include="app/src/app/components/login/login.component.css">
+      <publishTime>03/11/2018 18:41:58</publishTime>
+    </File>
+    <File Include="app/src/app/components/login/login.component.html">
+      <publishTime>06/19/2018 13:14:18</publishTime>
+    </File>
+    <File Include="app/src/app/components/login/login.component.ts">
+      <publishTime>06/30/2018 07:58:31</publishTime>
+    </File>
+    <File Include="app/src/app/components/manage/manage.component.html">
+      <publishTime>10/08/2018 12:18:57</publishTime>
+    </File>
+    <File Include="app/src/app/components/manage/manage.component.ts">
+      <publishTime>07/03/2018 13:51:43</publishTime>
+    </File>
+    <File Include="app/src/app/components/master-ledger/master-ledger.component.html">
+      <publishTime>02/06/2018 11:37:57</publishTime>
+    </File>
+    <File Include="app/src/app/components/master-ledger/master-ledger.component.ts">
+      <publishTime>04/02/2018 09:55:02</publishTime>
+    </File>
+    <File Include="app/src/app/components/menu-list/menu-list.component.html">
+      <publishTime>12/27/2017 11:53:07</publishTime>
+    </File>
+    <File Include="app/src/app/components/menu-list/menu-list.component.ts">
+      <publishTime>01/02/2018 09:28:26</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/Menu.component.html">
+      <publishTime>09/05/2018 16:28:08</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/menu.component.ts">
+      <publishTime>09/05/2018 10:55:48</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/MenuCategory/MenuCategory.component.html">
+      <publishTime>07/19/2018 20:41:58</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/MenuCategory/MenuCategory.component.ts">
+      <publishTime>08/21/2018 11:57:40</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/MenuItem/MenuCategoryItem.component.html">
+      <publishTime>09/02/2018 10:54:56</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/MenuItem/MenuCategoryItem.component.ts">
+      <publishTime>08/21/2018 12:02:50</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/MenuItem/MenuItem.component.html">
+      <publishTime>10/08/2018 17:08:08</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/MenuItem/MenuItem.component.ts">
+      <publishTime>10/04/2018 15:57:24</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/MenuItem/MenuItemPortion/MenuItemPortion.component.html">
+      <publishTime>06/19/2018 11:59:04</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/MenuItem/MenuItemPortion/MenuItemPortion.component.ts">
+      <publishTime>06/19/2018 11:58:50</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/MenuItem/ScreenMenuItem.component.html">
+      <publishTime>09/05/2018 16:28:36</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/MenuItem/ScreenMenuItem.component.ts">
+      <publishTime>09/10/2018 14:55:50</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/ScreenMenuCategory/Menu-Category.component.html">
+      <publishTime>09/05/2018 16:28:36</publishTime>
+    </File>
+    <File Include="app/src/app/components/Menu/ScreenMenuCategory/menu-category.component.ts">
+      <publishTime>09/10/2018 12:43:18</publishTime>
+    </File>
+    <File Include="app/src/app/components/navigation/navigation.component.html">
+      <publishTime>02/11/2018 11:04:42</publishTime>
+    </File>
+    <File Include="app/src/app/components/navigation/navigation.component.ts">
+      <publishTime>02/11/2018 10:54:57</publishTime>
+    </File>
+    <File Include="app/src/app/components/notfound/notfound.component.html">
+      <publishTime>01/26/2018 08:30:30</publishTime>
+    </File>
+    <File Include="app/src/app/components/notfound/notfound.component.ts">
+      <publishTime>01/26/2018 08:15:14</publishTime>
+    </File>
+    <File Include="app/src/app/components/payment/payment.component.css">
+      <publishTime>04/09/2018 13:29:12</publishTime>
+    </File>
+    <File Include="app/src/app/components/payment/payment.component.html">
+      <publishTime>08/22/2018 19:59:09</publishTime>
+    </File>
+    <File Include="app/src/app/components/payment/payment.component.ts">
+      <publishTime>08/13/2018 13:35:30</publishTime>
+    </File>
+    <File Include="app/src/app/components/periodic-consumption-items/periodic-consumption-item.component.html">
+      <publishTime>08/21/2018 13:05:04</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-dashboard-nav/pos-dashboard-nav.component.html">
+      <publishTime>10/08/2018 12:29:10</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-dashboard/pos-dashboard.component.css">
+      <publishTime>03/09/2018 11:57:31</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-dashboard/pos-dashboard.component.html">
+      <publishTime>07/28/2018 00:26:21</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-dashboard/pos-dashboard.component.ts">
+      <publishTime>10/08/2018 20:34:38</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-calculator/pos-calculator.component.css">
+      <publishTime>03/20/2018 08:43:21</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-calculator/pos-calculator.component.html">
+      <publishTime>05/04/2018 17:42:19</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-calculator/pos-calculator.component.ts">
+      <publishTime>01/26/2018 11:22:52</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-options/pos-options.component.css">
+      <publishTime>04/03/2018 23:48:52</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-options/pos-options.component.html">
+      <publishTime>04/03/2018 23:48:59</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-options/pos-options.component.ts">
+      <publishTime>10/08/2018 20:35:44</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-orders/pos-orders.component.css">
+      <publishTime>05/23/2018 12:16:30</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-orders/pos-orders.component.html">
+      <publishTime>08/12/2018 17:27:34</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-orders/pos-orders.component.ts">
+      <publishTime>08/12/2018 17:09:57</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-settle/pos-settle.component.css">
+      <publishTime>03/13/2018 11:52:42</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-settle/pos-settle.component.html">
+      <publishTime>08/12/2018 17:27:28</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-settle/pos-settle.component.ts">
+      <publishTime>10/23/2018 21:10:09</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-table.component.css">
+      <publishTime>03/20/2018 08:26:03</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-table.component.html">
+      <publishTime>10/07/2018 19:43:57</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-table.component.ts">
+      <publishTime>10/08/2018 20:39:57</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-tickets/pos-tickets.component.css">
+      <publishTime>03/13/2018 11:53:05</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-tickets/pos-tickets.component.html">
+      <publishTime>08/12/2018 17:52:40</publishTime>
+    </File>
+    <File Include="app/src/app/components/pos-table/pos-tickets/pos-tickets.component.ts">
+      <publishTime>10/08/2018 20:55:35</publishTime>
+    </File>
+    <File Include="app/src/app/components/purchase/purchase.component.css">
+      <publishTime>04/10/2018 20:45:00</publishTime>
+    </File>
+    <File Include="app/src/app/components/purchase/purchase.component.html">
+      <publishTime>08/22/2018 19:57:56</publishTime>
+    </File>
+    <File Include="app/src/app/components/purchase/purchase.component.ts">
+      <publishTime>08/13/2018 13:36:20</publishTime>
+    </File>
+    <File Include="app/src/app/components/purchaseDetail/purchaseDetail.component.html">
+      <publishTime>08/04/2018 11:56:42</publishTime>
+    </File>
+    <File Include="app/src/app/components/purchaseOrder/purchaseOrder.component.css">
+      <publishTime>04/10/2018 07:56:56</publishTime>
+    </File>
+    <File Include="app/src/app/components/purchaseOrder/purchaseOrder.component.html">
+      <publishTime>08/15/2018 07:57:56</publishTime>
+    </File>
+    <File Include="app/src/app/components/purchaseOrder/purchaseOrder.component.ts">
+      <publishTime>08/13/2018 13:38:15</publishTime>
+    </File>
+    <File Include="app/src/app/components/purchaseOrderDetails/purchaseOrderDetails.component.html">
+      <publishTime>04/10/2018 08:18:57</publishTime>
+    </File>
+    <File Include="app/src/app/components/purchaseOrderDetails/purchaseOrderDetails.component.ts">
+      <publishTime>04/10/2018 07:51:53</publishTime>
+    </File>
+    <File Include="app/src/app/components/receipt/receipt.component.css">
+      <publishTime>04/10/2018 07:24:11</publishTime>
+    </File>
+    <File Include="app/src/app/components/receipt/receipt.component.html">
+      <publishTime>08/22/2018 19:58:43</publishTime>
+    </File>
+    <File Include="app/src/app/components/receipt/receipt.component.ts">
+      <publishTime>08/13/2018 13:39:18</publishTime>
+    </File>
+    <File Include="app/src/app/components/Report/LedgerView/AccountLedgerView.Component.html">
+      <publishTime>08/02/2018 11:49:42</publishTime>
+    </File>
+    <File Include="app/src/app/components/reservation/customer-type/customer-type.component.html">
+      <publishTime>06/15/2018 19:35:41</publishTime>
+    </File>
+    <File Include="app/src/app/components/reservation/customer-type/customer-type.component.ts">
+      <publishTime>05/30/2018 12:22:56</publishTime>
+    </File>
+    <File Include="app/src/app/components/reservation/customer/customer.component.html">
+      <publishTime>07/14/2018 07:49:50</publishTime>
+    </File>
+    <File Include="app/src/app/components/reservation/customer/customer.component.ts">
+      <publishTime>07/14/2018 07:50:33</publishTime>
+    </File>
+    <File Include="app/src/app/components/reservation/payment-type/payment-type.component.html">
+      <publishTime>06/15/2018 19:36:01</publishTime>
+    </File>
+    <File Include="app/src/app/components/reservation/payment-type/payment-type.component.ts">
+      <publishTime>05/30/2018 13:15:30</publishTime>
+    </File>
+    <File Include="app/src/app/components/reservation/reservation-type/reservation-type.component.html">
+      <publishTime>06/15/2018 19:36:14</publishTime>
+    </File>
+    <File Include="app/src/app/components/reservation/reservation-type/reservation-type.component.ts">
+      <publishTime>07/20/2018 10:04:09</publishTime>
+    </File>
+    <File Include="app/src/app/components/reservation/room-type/room-type.component.html">
+      <publishTime>06/15/2018 19:35:09</publishTime>
+    </File>
+    <File Include="app/src/app/components/reservation/room-type/room-type.component.ts">
+      <publishTime>06/16/2018 13:48:53</publishTime>
+    </File>
+    <File Include="app/src/app/components/ReservationDashboard/ReservationDashboard.component.html">
+      <publishTime>07/13/2018 17:58:36</publishTime>
+    </File>
+    <File Include="app/src/app/components/role-assign/role-assign.component.html">
+      <publishTime>09/10/2018 12:55:34</publishTime>
+    </File>
+    <File Include="app/src/app/components/role-assign/role-assign.component.ts">
+      <publishTime>09/10/2018 11:48:48</publishTime>
+    </File>
+    <File Include="app/src/app/components/role/role.component.html">
+      <publishTime>09/05/2018 15:45:18</publishTime>
+    </File>
+    <File Include="app/src/app/components/role/role.component.ts">
+      <publishTime>09/07/2018 10:32:30</publishTime>
+    </File>
+    <File Include="app/src/app/components/rolemodule/rolemodule.component.ts">
+      <publishTime>09/04/2018 15:35:00</publishTime>
+    </File>
+    <File Include="app/src/app/components/sales-detail/salesDetail.component.html">
+      <publishTime>07/04/2018 08:07:18</publishTime>
+    </File>
+    <File Include="app/src/app/components/sales-detail/salesDetail.component.ts">
+      <publishTime>07/04/2018 08:07:03</publishTime>
+    </File>
+    <File Include="app/src/app/components/sales/sales.component.css">
+      <publishTime>05/15/2018 10:02:40</publishTime>
+    </File>
+    <File Include="app/src/app/components/sales/sales.component.html">
+      <publishTime>09/10/2018 18:19:12</publishTime>
+    </File>
+    <File Include="app/src/app/components/sales/sales.component.ts">
+      <publishTime>09/16/2018 12:14:18</publishTime>
+    </File>
+    <File Include="app/src/app/components/Table/table.component.html">
+      <publishTime>08/02/2018 07:52:15</publishTime>
+    </File>
+    <File Include="app/src/app/components/Table/table.component.ts">
+      <publishTime>07/28/2018 00:41:21</publishTime>
+    </File>
+    <File Include="app/src/app/components/TrialBalance/TrialBalance.component.html">
+      <publishTime>08/02/2018 11:18:05</publishTime>
+    </File>
+    <File Include="app/src/app/components/user-permission/user-permission.component.html">
+      <publishTime>07/29/2018 22:11:53</publishTime>
+    </File>
+    <File Include="app/src/app/components/user-permission/user-permission.component.ts">
+      <publishTime>07/22/2018 19:31:13</publishTime>
+    </File>
+    <File Include="app/src/app/components/user/user.component.html">
+      <publishTime>07/29/2018 18:15:37</publishTime>
+    </File>
+    <File Include="app/src/app/components/user/user.component.ts">
+      <publishTime>05/06/2018 12:43:26</publishTime>
+    </File>
+    <File Include="app/src/app/components/WareHouse/warehouse.component.html">
+      <publishTime>05/07/2018 18:15:09</publishTime>
+    </File>
+    <File Include="app/src/app/components/WareHouse/WareHouses.html">
+      <publishTime>03/13/2018 16:50:02</publishTime>
+    </File>
+    <File Include="app/src/app/components/WareHouse/warehousetype.component.html">
+      <publishTime>05/07/2018 18:16:23</publishTime>
+    </File>
+    <File Include="app/src/app/directives/autofocus.directive.ts">
+      <publishTime>03/12/2018 11:47:16</publishTime>
+    </File>
+    <File Include="app/src/app/directives/directives.module.ts">
+      <publishTime>03/16/2018 14:52:56</publishTime>
+    </File>
+    <File Include="app/src/app/effects/category.effects.ts">
+      <publishTime>01/25/2018 08:08:24</publishTime>
+    </File>
+    <File Include="app/src/app/effects/customer.effects.ts">
+      <publishTime>06/24/2018 10:09:21</publishTime>
+    </File>
+    <File Include="app/src/app/effects/order.effects.ts">
+      <publishTime>10/08/2018 20:57:20</publishTime>
+    </File>
+    <File Include="app/src/app/effects/product.effects.ts">
+      <publishTime>06/24/2018 10:09:36</publishTime>
+    </File>
+    <File Include="app/src/app/effects/table.effects.ts">
+      <publishTime>06/24/2018 10:09:41</publishTime>
+    </File>
+    <File Include="app/src/app/effects/ticket.effects.ts">
+      <publishTime>10/08/2018 20:57:07</publishTime>
+    </File>
+    <File Include="app/src/app/effects/user.effects.ts">
+      <publishTime>06/24/2018 10:09:55</publishTime>
+    </File>
+    <File Include="app/src/app/filters/customerByName.filter.ts">
+      <publishTime>07/20/2018 13:53:12</publishTime>
+    </File>
+    <File Include="app/src/app/filters/filterByCategory.filter.ts">
+      <publishTime>02/04/2018 13:42:12</publishTime>
+    </File>
+    <File Include="app/src/app/filters/filters.module.ts">
+      <publishTime>12/27/2017 11:50:20</publishTime>
+    </File>
+    <File Include="app/src/app/guard/auth.guard.ts">
+      <publishTime>02/08/2018 10:12:51</publishTime>
+    </File>
+    <File Include="app/src/app/mocks/customers.mock.ts">
+      <publishTime>10/29/2017 09:26:48</publishTime>
+    </File>
+    <File Include="app/src/app/mocks/menu-category.mock.ts">
+      <publishTime>11/07/2017 08:11:58</publishTime>
+    </File>
+    <File Include="app/src/app/mocks/menu-list.mock .ts">
+      <publishTime>11/07/2017 09:51:13</publishTime>
+    </File>
+    <File Include="app/src/app/mocks/menus.mock .ts">
+      <publishTime>11/07/2017 10:16:45</publishTime>
+    </File>
+    <File Include="app/src/app/mocks/orders.mock.ts">
+      <publishTime>01/04/2018 09:12:54</publishTime>
+    </File>
+    <File Include="app/src/app/mocks/products.mock.ts">
+      <publishTime>11/09/2017 07:17:50</publishTime>
+    </File>
+    <File Include="app/src/app/mocks/tables.mock.ts">
+      <publishTime>11/10/2017 09:32:10</publishTime>
+    </File>
+    <File Include="app/src/app/mocks/vendors.mock.ts">
+      <publishTime>10/18/2017 07:52:02</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Account/account.ts">
+      <publishTime>05/01/2018 09:35:15</publishTime>
+    </File>
+    <File Include="app/src/app/Model/AccountTransaction/accountTrans.ts">
+      <publishTime>10/05/2018 10:14:58</publishTime>
+    </File>
+    <File Include="app/src/app/Model/AccountTransactionType/accountTransType.ts">
+      <publishTime>02/15/2018 12:30:58</publishTime>
+    </File>
+    <File Include="app/src/app/Model/AccountType/accountType.ts">
+      <publishTime>02/06/2018 17:54:41</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Category.ts">
+      <publishTime>10/15/2017 16:21:52</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Department.ts">
+      <publishTime>10/13/2017 13:32:25</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Inventory/inventoryItem.ts">
+      <publishTime>08/10/2018 11:56:48</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Inventory/InventoryReceipt.ts">
+      <publishTime>09/16/2018 10:00:54</publishTime>
+    </File>
+    <File Include="app/src/app/Model/MasterLedger.ts">
+      <publishTime>11/12/2017 16:42:56</publishTime>
+    </File>
+    <File Include="app/src/app/Model/MasterLedger/masterLedger.ts">
+      <publishTime>01/24/2018 13:17:49</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Menu/Menu.ts">
+      <publishTime>12/26/2017 18:02:30</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Menu/MenuCategory.ts">
+      <publishTime>09/06/2018 16:50:44</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Menu/MenuItem.ts">
+      <publishTime>09/26/2018 11:41:34</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Menu/MenuItemPortion.ts">
+      <publishTime>10/02/2018 09:56:30</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Menu/Table.ts">
+      <publishTime>12/19/2017 10:37:31</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Order.ts">
+      <publishTime>01/10/2018 17:37:10</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Roles/role.ts">
+      <publishTime>09/10/2018 15:00:58</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Roles/rolemodule.ts">
+      <publishTime>01/29/2018 17:41:22</publishTime>
+    </File>
+    <File Include="app/src/app/Model/Supplier.ts">
+      <publishTime>11/12/2017 14:24:57</publishTime>
+    </File>
+    <File Include="app/src/app/Model/User/user.ts">
+      <publishTime>01/24/2018 13:25:58</publishTime>
+    </File>
+    <File Include="app/src/app/Model/User/userpermission.ts">
+      <publishTime>02/04/2018 16:41:14</publishTime>
+    </File>
+    <File Include="app/src/app/Model/User/userRole.ts">
+      <publishTime>09/10/2018 12:46:10</publishTime>
+    </File>
+    <File Include="app/src/app/models/category.model.ts">
+      <publishTime>03/16/2018 09:18:38</publishTime>
+    </File>
+    <File Include="app/src/app/models/customer.model.ts">
+      <publishTime>08/07/2018 20:40:51</publishTime>
+    </File>
+    <File Include="app/src/app/models/order.model.ts">
+      <publishTime>08/04/2018 11:54:30</publishTime>
+    </File>
+    <File Include="app/src/app/models/product.model.ts">
+      <publishTime>03/16/2018 09:18:38</publishTime>
+    </File>
+    <File Include="app/src/app/models/receipt.model.ts">
+      <publishTime>03/16/2018 09:18:38</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/customer-screen.model.ts">
+      <publishTime>05/30/2018 08:57:01</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/customer-type.model.ts">
+      <publishTime>05/30/2018 08:00:51</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/customer.model.ts">
+      <publishTime>06/02/2018 18:59:52</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/facility.model.ts">
+      <publishTime>05/30/2018 07:59:39</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/payment-type.model.ts">
+      <publishTime>05/30/2018 08:08:44</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/reservation-detail.model.ts">
+      <publishTime>06/06/2018 11:48:15</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/reservation-screen.model.ts">
+      <publishTime>05/30/2018 08:57:28</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/reservation-type.model.ts">
+      <publishTime>05/30/2018 07:59:54</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/reservation.model.ts">
+      <publishTime>06/16/2018 15:05:30</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/room-hosted-screen.model.ts">
+      <publishTime>05/30/2018 08:24:45</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/room-hosted.model.ts">
+      <publishTime>05/30/2018 08:21:49</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/room-occupied-screen.model.ts">
+      <publishTime>05/30/2018 08:57:54</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/room-occupied.model.ts">
+      <publishTime>07/04/2018 10:43:14</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/room-reserved-screen.model.ts">
+      <publishTime>05/30/2018 08:28:37</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/room-reserved.model.ts">
+      <publishTime>07/10/2018 14:57:58</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/room-screen.model.ts">
+      <publishTime>05/30/2018 08:29:57</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/room-type.model.ts">
+      <publishTime>05/30/2018 08:00:08</publishTime>
+    </File>
+    <File Include="app/src/app/models/reservation/room.model.ts">
+      <publishTime>06/11/2018 11:02:45</publishTime>
+    </File>
+    <File Include="app/src/app/models/table.model.ts">
+      <publishTime>08/07/2018 20:41:50</publishTime>
+    </File>
+    <File Include="app/src/app/models/ticket.model.ts">
+      <publishTime>05/16/2018 09:17:00</publishTime>
+    </File>
+    <File Include="app/src/app/models/user.model.ts">
+      <publishTime>03/16/2018 09:18:38</publishTime>
+    </File>
+    <File Include="app/src/app/reducers/categories.reducer.ts">
+      <publishTime>04/14/2018 10:22:28</publishTime>
+    </File>
+    <File Include="app/src/app/reducers/customers.reducer.ts">
+      <publishTime>08/12/2018 18:22:04</publishTime>
+    </File>
+    <File Include="app/src/app/reducers/message.reducer.ts">
+      <publishTime>04/14/2018 10:22:16</publishTime>
+    </File>
+    <File Include="app/src/app/reducers/orders.reducer.ts">
+      <publishTime>10/08/2018 21:06:58</publishTime>
+    </File>
+    <File Include="app/src/app/reducers/products.reducer.ts">
+      <publishTime>04/14/2018 10:22:09</publishTime>
+    </File>
+    <File Include="app/src/app/reducers/tables.reducer.ts">
+      <publishTime>04/14/2018 10:22:04</publishTime>
+    </File>
+    <File Include="app/src/app/reducers/tickets.reducer.ts">
+      <publishTime>10/08/2018 21:32:29</publishTime>
+    </File>
+    <File Include="app/src/app/reducers/users.reducer.ts">
+      <publishTime>04/14/2018 10:21:56</publishTime>
+    </File>
+    <File Include="app/src/app/selectors/category.selector.ts">
+      <publishTime>01/25/2018 08:26:30</publishTime>
+    </File>
+    <File Include="app/src/app/selectors/customer.selector.ts">
+      <publishTime>02/15/2018 19:39:45</publishTime>
+    </File>
+    <File Include="app/src/app/selectors/order.selector.ts">
+      <publishTime>01/25/2018 09:00:20</publishTime>
+    </File>
+    <File Include="app/src/app/selectors/product.selector.ts">
+      <publishTime>01/24/2018 17:42:40</publishTime>
+    </File>
+    <File Include="app/src/app/selectors/table.selector.ts">
+      <publishTime>01/24/2018 16:56:14</publishTime>
+    </File>
+    <File Include="app/src/app/selectors/ticket.selector.ts">
+      <publishTime>07/20/2018 08:50:53</publishTime>
+    </File>
+    <File Include="app/src/app/Service/account-trans-type.service.ts">
+      <publishTime>03/06/2018 13:55:37</publishTime>
+    </File>
+    <File Include="app/src/app/Service/account-type.service.ts">
+      <publishTime>03/07/2018 12:38:54</publishTime>
+    </File>
+    <File Include="app/src/app/Service/account.service.ts">
+      <publishTime>03/14/2018 16:38:31</publishTime>
+    </File>
+    <File Include="app/src/app/Service/authentication.service.ts">
+      <publishTime>01/26/2018 11:40:37</publishTime>
+    </File>
+    <File Include="app/src/app/Service/Category.services.ts">
+      <publishTime>02/15/2018 11:51:08</publishTime>
+    </File>
+    <File Include="app/src/app/Service/Department.service.ts">
+      <publishTime>11/02/2017 10:20:06</publishTime>
+    </File>
+    <File Include="app/src/app/Service/InventoryIssue.service.ts">
+      <publishTime>01/24/2018 14:22:20</publishTime>
+    </File>
+    <File Include="app/src/app/Service/InventoryItem.service.ts">
+      <publishTime>01/15/2018 11:25:01</publishTime>
+    </File>
+    <File Include="app/src/app/Service/InventoryReceipt.service.ts">
+      <publishTime>09/27/2018 16:59:06</publishTime>
+    </File>
+    <File Include="app/src/app/Service/journalVoucher.service.ts">
+      <publishTime>07/12/2018 14:46:54</publishTime>
+    </File>
+    <File Include="app/src/app/Service/login.service.ts">
+      <publishTime>01/24/2018 15:00:49</publishTime>
+    </File>
+    <File Include="app/src/app/Service/MasterLedger.service.ts">
+      <publishTime>11/12/2017 16:43:55</publishTime>
+    </File>
+    <File Include="app/src/app/Service/Menu.service.ts">
+      <publishTime>03/14/2018 17:56:54</publishTime>
+    </File>
+    <File Include="app/src/app/Service/MenuCategory.service.ts">
+      <publishTime>09/06/2018 16:58:04</publishTime>
+    </File>
+    <File Include="app/src/app/Service/MenuItem.service.ts">
+      <publishTime>03/14/2018 16:29:48</publishTime>
+    </File>
+    <File Include="app/src/app/Service/Order.service.ts">
+      <publishTime>01/11/2018 11:33:47</publishTime>
+    </File>
+    <File Include="app/src/app/Service/purchase.service.ts">
+      <publishTime>05/15/2018 12:45:19</publishTime>
+    </File>
+    <File Include="app/src/app/Service/purchaseorder.service.ts">
+      <publishTime>03/21/2018 16:33:05</publishTime>
+    </File>
+    <File Include="app/src/app/Service/role.service.ts">
+      <publishTime>09/10/2018 15:23:32</publishTime>
+    </File>
+    <File Include="app/src/app/Service/Supplier.service.ts">
+      <publishTime>01/11/2018 11:28:16</publishTime>
+    </File>
+    <File Include="app/src/app/Service/tableService.ts">
+      <publishTime>02/22/2018 13:47:44</publishTime>
+    </File>
+    <File Include="app/src/app/Service/user.service.ts">
+      <publishTime>02/04/2018 12:49:16</publishTime>
+    </File>
+    <File Include="app/src/app/Service/userRole.service.ts">
+      <publishTime>09/07/2018 17:48:00</publishTime>
+    </File>
+    <File Include="app/src/app/services/category.service.ts">
+      <publishTime>04/14/2018 12:13:13</publishTime>
+    </File>
+    <File Include="app/src/app/services/customer.service.ts">
+      <publishTime>08/12/2018 16:20:34</publishTime>
+    </File>
+    <File Include="app/src/app/services/order.service.ts">
+      <publishTime>10/04/2018 21:16:33</publishTime>
+    </File>
+    <File Include="app/src/app/services/product.service.ts">
+      <publishTime>02/04/2018 11:40:30</publishTime>
+    </File>
+    <File Include="app/src/app/services/store/category.store.service.ts">
+      <publishTime>01/25/2018 08:03:35</publishTime>
+    </File>
+    <File Include="app/src/app/services/store/customer.store.service.ts">
+      <publishTime>10/04/2018 21:16:35</publishTime>
+    </File>
+    <File Include="app/src/app/services/store/order.store.service.ts">
+      <publishTime>04/19/2018 08:55:22</publishTime>
+    </File>
+    <File Include="app/src/app/services/store/product.store.service.ts">
+      <publishTime>01/25/2018 07:50:08</publishTime>
+    </File>
+    <File Include="app/src/app/services/store/table.store.service.ts">
+      <publishTime>07/28/2018 00:39:25</publishTime>
+    </File>
+    <File Include="app/src/app/services/store/ticket.store.service.ts">
+      <publishTime>10/08/2018 20:59:51</publishTime>
+    </File>
+    <File Include="app/src/app/services/store/user.store.service.ts">
+      <publishTime>01/08/2018 12:21:28</publishTime>
+    </File>
+    <File Include="app/src/app/services/table.service.ts">
+      <publishTime>04/14/2018 12:14:03</publishTime>
+    </File>
+    <File Include="app/src/app/services/ticket.service.ts">
+      <publishTime>10/15/2018 18:50:13</publishTime>
+    </File>
+    <File Include="app/src/app/services/user.service.ts">
+      <publishTime>02/07/2018 10:57:42</publishTime>
+    </File>
+    <File Include="app/src/app/Shared/enum.ts">
+      <publishTime>10/09/2017 12:18:28</publishTime>
+    </File>
+    <File Include="app/src/app/Shared/global.ts">
+      <publishTime>10/26/2018 16:19:51</publishTime>
+    </File>
+    <File Include="app/src/assets/css/overrides.css">
+      <publishTime>07/14/2018 14:24:22</publishTime>
+    </File>
+    <File Include="app/src/assets/css/styles.css">
+      <publishTime>07/10/2018 16:01:51</publishTime>
+    </File>
+    <File Include="app/src/environments/environment.prod.ts">
+      <publishTime>09/27/2017 10:20:49</publishTime>
+    </File>
+    <File Include="app/src/environments/environment.ts">
+      <publishTime>01/08/2018 10:42:59</publishTime>
+    </File>
+    <File Include="app/src/favicon.ico">
+      <publishTime>09/27/2017 10:20:49</publishTime>
+    </File>
+    <File Include="app/src/index.html">
+      <publishTime>09/27/2017 10:20:49</publishTime>
+    </File>
+    <File Include="app/src/main.ts">
+      <publishTime>09/27/2017 10:20:49</publishTime>
+    </File>
+    <File Include="app/src/polyfills.ts">
+      <publishTime>09/27/2017 10:20:49</publishTime>
+    </File>
+    <File Include="app/src/test.ts">
+      <publishTime>09/27/2017 10:20:49</publishTime>
+    </File>
+    <File Include="app/src/tsconfig.app.json">
+      <publishTime>03/16/2018 11:11:45</publishTime>
+    </File>
+    <File Include="app/src/typings.d.ts">
+      <publishTime>09/27/2017 10:20:49</publishTime>
+    </File>
+    <File Include="app/tsconfig.json">
+      <publishTime>09/27/2017 10:20:49</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/HelpPage.css">
+      <publishTime>01/29/2021 16:45:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
+      <publishTime>01/29/2021 16:45:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
+      <publishTime>01/29/2021 16:45:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml">
+      <publishTime>01/29/2021 16:45:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ComplexTypeModelDescription.cshtml">
+      <publishTime>01/29/2021 16:45:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/DictionaryModelDescription.cshtml">
+      <publishTime>01/29/2021 16:45:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/EnumTypeModelDescription.cshtml">
+      <publishTime>01/29/2021 16:45:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
+      <publishTime>01/29/2021 16:45:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
+      <publishTime>01/29/2021 16:45:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml">
+      <publishTime>01/29/2021 16:45:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/KeyValuePairModelDescription.cshtml">
+      <publishTime>01/29/2021 16:45:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ModelDescriptionLink.cshtml">
+      <publishTime>01/29/2021 16:45:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
+      <publishTime>01/29/2021 16:45:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
+      <publishTime>01/29/2021 16:45:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml">
+      <publishTime>01/29/2021 16:45:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml">
+      <publishTime>01/29/2021 16:45:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
+      <publishTime>01/29/2021 16:45:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/ResourceModel.cshtml">
+      <publishTime>01/29/2021 16:45:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
+      <publishTime>01/29/2021 16:45:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Web.config">
+      <publishTime>01/29/2021 16:45:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
+      <publishTime>01/29/2021 16:45:38</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>08/02/2019 18:01:04</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>08/02/2019 18:01:04</publishTime>
+    </File>
+    <File Include="bin/DCubeHotelBusinessLayer.dll">
+      <publishTime>05/10/2022 18:35:19</publishTime>
+    </File>
+    <File Include="bin/DCubeHotelBusinessLayer.pdb">
+      <publishTime>05/10/2022 18:35:19</publishTime>
+    </File>
+    <File Include="bin/DCubeHotelDomain.dll">
+      <publishTime>04/10/2022 17:22:24</publishTime>
+    </File>
+    <File Include="bin/DCubeHotelErrorLog.dll">
+      <publishTime>03/29/2018 17:55:46</publishTime>
+    </File>
+    <File Include="bin/DCubeHotelInfrastructure.dll">
+      <publishTime>12/06/2021 12:40:01</publishTime>
+    </File>
+    <File Include="bin/DCubeHotelInfrastructure.pdb">
+      <publishTime>12/06/2021 12:40:01</publishTime>
+    </File>
+    <File Include="bin/DCubeHotelInfrastructureData.dll">
+      <publishTime>12/06/2021 12:40:04</publishTime>
+    </File>
+    <File Include="bin/DCubeHotelInfrastructureData.pdb">
+      <publishTime>12/06/2021 12:40:02</publishTime>
+    </File>
+    <File Include="bin/DCubeHotelSystem.dll">
+      <publishTime>05/10/2022 18:35:59</publishTime>
+    </File>
+    <File Include="bin/DCubeHotelSystem.pdb">
+      <publishTime>05/10/2022 18:35:59</publishTime>
+    </File>
+    <File Include="bin/DCubeHotelUser.dll">
+      <publishTime>09/26/2018 16:47:10</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/01/2018 21:43:54</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/01/2018 21:43:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/13/2020 00:22:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Logging.dll">
+      <publishTime>10/13/2020 00:23:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>10/13/2020 00:28:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2015 13:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2015 13:16:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/13/2015 13:16:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>02/13/2015 13:16:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 15:23:58</publishTime>
+    </File>
+    <File Include="bin/NepaliDate.dll">
+      <publishTime>09/20/2018 17:44:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/Omu.ValueInjecter.dll">
+      <publishTime>11/04/2016 07:31:03</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/27/2012 13:00:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>10/13/2020 00:20:02</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/28/2018 13:00:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>11/28/2018 12:58:44</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>11/28/2018 13:01:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/28/2018 13:01:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Owin.dll">
+      <publishTime>01/28/2015 04:03:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 04:03:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 13:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/10/2013 17:28:38</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/07/2018 12:56:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/07/2018 12:56:34</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/07/2018 12:56:34</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/07/2018 12:56:34</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/07/2018 12:56:34</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/07/2018 12:56:24</publishTime>
+    </File>
+    <File Include="images/Account_Finance.jpg">
+      <publishTime>11/26/2018 13:57:30</publishTime>
+    </File>
+    <File Include="images/Add.png">
+      <publishTime>09/25/2017 13:55:02</publishTime>
+    </File>
+    <File Include="images/ajax-loader.gif">
+      <publishTime>12/21/2018 20:49:10</publishTime>
+    </File>
+    <File Include="images/Booking.jpg">
+      <publishTime>11/26/2018 13:36:26</publishTime>
+    </File>
+    <File Include="images/CheckIn.png">
+      <publishTime>11/26/2018 12:02:22</publishTime>
+    </File>
+    <File Include="images/checkout.jpg">
+      <publishTime>11/26/2018 13:27:18</publishTime>
+    </File>
+    <File Include="images/Delete.png">
+      <publishTime>09/25/2017 13:58:46</publishTime>
+    </File>
+    <File Include="images/DeleteUser.png">
+      <publishTime>09/25/2017 13:45:34</publishTime>
+    </File>
+    <File Include="images/Edit.png">
+      <publishTime>09/25/2017 13:57:06</publishTime>
+    </File>
+    <File Include="images/EditUser.png">
+      <publishTime>09/25/2017 13:52:38</publishTime>
+    </File>
+    <File Include="images/enquiry.png">
+      <publishTime>11/26/2018 11:34:18</publishTime>
+    </File>
+    <File Include="images/Finance.jpg">
+      <publishTime>09/20/2018 20:18:30</publishTime>
+    </File>
+    <File Include="images/FrontDesk.jpg">
+      <publishTime>07/04/2018 19:13:14</publishTime>
+    </File>
+    <File Include="images/Guest.png">
+      <publishTime>11/26/2018 13:13:52</publishTime>
+    </File>
+    <File Include="images/hotel.png">
+      <publishTime>10/11/2017 14:21:48</publishTime>
+    </File>
+    <File Include="images/Inventory.jpg">
+      <publishTime>09/25/2017 14:08:18</publishTime>
+    </File>
+    <File Include="images/loading.gif">
+      <publishTime>03/14/2017 23:38:38</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>03/28/2018 09:51:26</publishTime>
+    </File>
+    <File Include="images/Manage.png">
+      <publishTime>09/24/2018 16:36:28</publishTime>
+    </File>
+    <File Include="images/mobile-2-icon.png">
+      <publishTime>07/03/2018 16:16:16</publishTime>
+    </File>
+    <File Include="images/occupied.jpg">
+      <publishTime>11/26/2018 13:34:56</publishTime>
+    </File>
+    <File Include="images/Phone.png">
+      <publishTime>07/03/2018 16:12:24</publishTime>
+    </File>
+    <File Include="images/POS.jpg">
+      <publishTime>09/22/2018 09:03:10</publishTime>
+    </File>
+    <File Include="images/Report.png">
+      <publishTime>09/25/2017 14:12:28</publishTime>
+    </File>
+    <File Include="images/SalesMarketing.png">
+      <publishTime>09/25/2017 14:06:22</publishTime>
+    </File>
+    <File Include="images/UserAdd.png">
+      <publishTime>09/25/2017 13:52:16</publishTime>
+    </File>
+    <File Include="images/Users.png">
+      <publishTime>09/25/2017 14:10:06</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/29/2021 16:48:04</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>08/02/2019 18:00:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>03/07/2018 12:56:34</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>03/07/2018 12:56:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>03/07/2018 12:57:18</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>03/07/2018 12:57:18</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>03/07/2018 12:57:18</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>03/07/2018 12:58:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>03/07/2018 12:58:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>03/07/2018 12:58:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>03/07/2018 12:58:24</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>03/07/2018 12:57:42</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>03/07/2018 12:57:46</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>03/07/2018 12:57:46</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>08/02/2019 15:16:46</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>04/04/2018 08:54:48</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>03/07/2018 12:56:24</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>01/24/2021 17:14:12</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>03/07/2018 12:56:24</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>03/07/2018 12:56:24</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/10/2022 16:57:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

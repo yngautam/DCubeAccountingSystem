@@ -1,0 +1,31 @@
+<div class="col-md-4 col-md-offset-4 login-form">
+    <div class="text-center">
+        <img src="../../images/logo.png"
+             alt="DCube Hotel System" class="img-circle" />
+    </div>
+    <form (ngSubmit)="onSubmit()" [formGroup]="form">
+        <div class="text-center title">
+            <h4>USER LOGIN</h4>
+            <div class="marker"></div>
+        </div>
+        <div class="form-group">
+            <label for="UserName">Username:</label>
+            <div class="input-group">
+                <span class="input-group-addon"><strong><i class="fa fa-user"></i>&nbsp;</strong></span>
+                <input type="text" class="form-control" formControlName="UserName" placeholder="dcubehotel" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="UserName">Password:</label>
+            <div class="input-group">
+                <span class="input-group-addon"><strong><i class="fa fa-key"></i></strong></span>
+                <input type="password" class="form-control" formControlName="Password" placeholder="*******" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Keep me signed in</label>
+            <input type="checkbox" class="custom" formControlName="Remember" />
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+</div>
